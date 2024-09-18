@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="mystyle.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>WebLab1</title>
+<!--    <script src="validate.js"></script>-->
+</head>
+<body>
+<div id="header">
+    <h1>Лабораторная работа №1</h1>
+    <a>Александров Александр Александрович</a>
+    <p>Группа: P3206 Вариант: 115203</p>
+</div>
+<form id="bottom">
+    <svg id="coordinatePlane" width="400" height="400"></svg>
+    <div id="buttons-container">
+        <div class="x-buttons-container">
+            <label class="x-label">Изменить X:</label>
+            <button type="button" class="x-button" value="-5" onclick="setX(this)">-5</button>
+            <button type="button" class="x-button" value="-4" onclick="setX(this)">-4</button>
+            <button type="button" class="x-button" value="-3" onclick="setX(this)">-3</button>
+            <button type="button" class="x-button" value="-2" onclick="setX(this)">-2</button>
+            <button type="button" class="x-button" value="-1" onclick="setX(this)">-1</button>
+            <button type="button" class="x-button" value="0" onclick="setX(this)">0</button>
+            <button type="button" class="x-button" value="1" onclick="setX(this)">1</button>
+            <button type="button" class="x-button" value="2" onclick="setX(this)">2</button>
+            <button type="button" class="x-button" value="3" onclick="setX(this)">3</button>
+        </div>
+        <div class="y-input-container">
+            <label class="y-label">Изменить Y:</label>
+            <input type="text" class="y-input" name="y-coordinate" placeholder="Введите Y из (-5, 3)" onchange="setY(this)">
+        </div>
+        <div class="radius-radio-container">
+            <label class="radius-label">Изменить R:</label>
+            <input type="radio" class="radius-radio" name="radius" value="1" onclick="setR(this)">
+            <label class="radius1">1</label>
+            <input type="radio" class="radius-radio" name="radius" value="2" onclick="setR(this)">
+            <label class="radius2">2</label>
+            <input type="radio" class="radius-radio" name="radius" value="3" onclick="setR(this)">
+            <label class="radius3">3</label>
+            <input type="radio" class="radius-radio" name="radius" value="4" onclick="setR(this)">
+            <label class="radius4">4</label>
+            <input type="radio" class="radius-radio" name="radius" value="5" onclick="setR(this)">
+            <label class="radius5">5</label>
+        </div>
+        <input type="submit" value="Submit" id="submit-button" onclick="submitForm(event)">
+        <div class="output-container">
+            <h4>
+                <span class="outputStub notification">Нет результатов</span>
+            </h4>
+            <div class="history">
+                <div class="history-item">
+                    <div class="label">Попытка:</div>
+                    <div class="value" id="Number"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">X:</div>
+                    <div class="value" id="XHistory"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">Y:</div>
+                    <div class="value" id="YHistory"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">R:</div>
+                    <div class="value" id="RHistory"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">Попадание:</div>
+                    <div class="value" id="hit"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">Время:</div>
+                    <div class="value" id="time"></div>
+                </div>
+                <div class="history-item">
+                    <div class="label">Время выполнения (в миллисекундах):</div>
+                    <div class="value" id="run"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="validate.js"></script>
+    <script src="coord.js"></script>
+</form>
+</body>
+</html>

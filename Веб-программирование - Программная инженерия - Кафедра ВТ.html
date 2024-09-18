@@ -1,0 +1,7118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://se.ifmo.ru/courses/web -->
+<html class="ltr yui3-js-enabled" dir="ltr" lang="ru-RU"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Веб-программирование - Программная инженерия - Кафедра ВТ</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://se.ifmo.ru/o/helios-theme/images/favicon.ico" rel="icon">
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/clay.css" id="liferayAUICSS" rel="stylesheet" type="text/css">
+
+
+
+<script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_56" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource" async=""></script><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_60" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/available_languages.jsp" async=""></script><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_61" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(1)" async=""></script><link rel="stylesheet" id="yui_patched_v3_18_1_1_1725449291209_77" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(2)"><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_78" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(3)" async=""></script><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_79" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(4)" async=""></script><link rel="stylesheet" id="yui_patched_v3_18_1_1_1725449291209_93" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(5)"><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_94" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(6)" async=""></script><script charset="utf-8" id="yui_patched_v3_18_1_1_1725449291209_95" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(7)" async=""></script><link data-senna-track="temporary" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/main.css" id="liferayPortalCSS" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<link data-senna-track="temporary" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo" id="f345f9c4" rel="stylesheet" type="text/css">
+
+	
+
+
+
+
+
+
+
+<script async="" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/analytics.js"></script><script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 128.0;
+			},
+
+			getRevision: function() {
+				return '537.36';
+			},
+			getVersion: function() {
+				return '128.0';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return true;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return true;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+
+			
+		];
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			NTLM_AUTH_ENABLED: false,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '6';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/courses/web';
+				},
+				getLayoutURL: function() {
+					return 'https://se.ifmo.ru/courses/web';
+				},
+				getParentLayoutId: function() {
+					return '2';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'ru-RU';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2fse\x2eifmo\x2eru\x2fcourses\x2fweb';
+			},
+			getCDNBaseURL: function() {
+				return 'https://se.ifmo.ru';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '10192';
+			},
+			getCompanyId: function() {
+				return '10154';
+			},
+			getDefaultLanguageId: function() {
+				return 'ru_RU';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'ru_RU';
+			},
+			getParentGroupId: function() {
+				return '10180';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://se.ifmo.ru/o/helios-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/helios-theme';
+			},
+			getPlid: function() {
+				return '10766';
+			},
+			getPortalURL: function() {
+				return 'https://se.ifmo.ru';
+			},
+			getScopeGroupId: function() {
+				return '10180';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '10180';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://se.ifmo.ru/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '10180';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=10766';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fse\x2eifmo\x2eru\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '2379750\x40cs\x2eifmo\x2eru';
+			},
+			getUserId: function() {
+				return '2379750';
+			},
+			getUserName: function() {
+				return '\u0041\u006c\u0065\u006b\u0073\u0061\u006e\u0064\u0072\u0020\u0041\u006c\u0065\u006b\u0073\u0061\u006e\u0064\u0072\u006f\u0076';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return true;
+			},
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=chrome&themeId=helios_WAR_heliostheme&colorSchemeId=02&minifierType=js&languageId=ru_RU&b=7304&t=1724845484724';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=chrome&minifierType=&languageId=ru_RU&b=7304&t=1725375005240&';
+			},
+			getDateFormat: function() {
+				return '%d.%m.%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=chrome&themeId=helios_WAR_heliostheme&colorSchemeId=02&minifierType=js&languageId=ru_RU&b=7304&t=1725375005240';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=chrome&minifierType=&languageId=ru_RU&b=7304&t=1725375005240';
+			}
+		};
+
+		Liferay.authToken = 'KYR0qP0W';
+
+		
+
+		Liferay.currentURL = '\x2fcourses\x2fweb';
+		Liferay.currentURLEncoded = '\x252Fcourses\x252Fweb';
+	// ]]>
+</script>
+
+<script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/js_loader_config" type="text/javascript"></script>
+<script data-senna-track="permanent" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(1)" type="text/javascript"></script>
+<script data-senna-track="permanent" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(2)" type="text/javascript"></script>
+<script data-senna-track="permanent" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(3)" type="text/javascript"></script>
+<script data-senna-track="permanent" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(4)" type="text/javascript"></script>
+
+
+
+
+	
+
+	<script data-senna-track="temporary" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/js_bundle_config" type="text/javascript"></script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+			
+				
+					Liferay._editControlsState = 'visible';
+				
+			
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+				<script data-senna-track="permanent" id="googleAnalyticsScript" type="text/javascript">
+					(function(i, s, o, g, r, a, m) {
+						i['GoogleAnalyticsObject'] = r;
+
+						i[r] = i[r] || function() {
+							var arrayValue = i[r].q || [];
+
+							i[r].q = arrayValue;
+
+							(i[r].q).push(arguments);
+						};
+
+						i[r].l = 1 * new Date();
+
+						a = s.createElement(o);
+						m = s.getElementsByTagName(o)[0];
+						a.async = 1;
+						a.src = g;
+						m.parentNode.insertBefore(a, m);
+					})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+					
+
+					
+						
+							ga('create', 'UA-20845443-6', 'auto');
+						
+					
+
+					
+
+					
+
+					ga('send', 'pageview');
+
+					
+				</script>
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<script data-senna-track="temporary" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(5)" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/main(1).css" id="liferayThemeCSS" rel="stylesheet" type="text/css">
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+		.areas > div > input[type="text"] {
+	width: 50px;
+	display: inline;
+}
+
+.areas > div > label {
+	display: inline;
+}
+	</style>
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_iapsportletlab6_WAR_iapsportlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh_ .portlet-content {
+background-color: #;
+border-color: #;
+color: #
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_iapsportletlab8_WAR_iapsportlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4_ .portlet-content {
+
+}
+
+#p_p_id_56_INSTANCE_M00wSZruT5B4_{
+	float: left;
+	width: 100%;	
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_iapsportletlab9_WAR_iapsportlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<style data-senna-track="temporary" type="text/css">
+</style>
+<link data-senna-track="permanent" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/product_navigation_product_menu.css" rel="stylesheet" type="text/css">
+
+<link data-senna-track="permanent" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/product_navigation_control_menu.css" rel="stylesheet" type="text/css">
+<script data-senna-track="permanent" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/product_navigation_control_menu.js" type="text/javascript"></script>
+<link data-senna-track="permanent" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/simulation_panel.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/fontawesome.min.css">
+<script>
+	function login_show() {
+
+
+		let getURL = themeDisplay.getLayoutRelativeControlPanelURL();
+		let banner = $('#banner');
+
+		if ((getURL === "/group/guest/~/control_panel/manage?p_p_id=com_liferay_login_web_portlet_LoginPortlet") && ("/courses/web" !== "/home")) {
+			banner.addClass('tfd');
+			banner[0].insertAdjacentHTML('beforeend', '<img src="https://se.ifmo.ru/o/helios-theme/images/ducks_new.jpeg" alt="ducks" id="banner-img" style="height: 100%; width: 100%; position: relative; object-fit: cover; display: block;">');
+		}
+	}
+</script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(8)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(9)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(10)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(11)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(12)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(13)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(14)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(15)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(16)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(17)"></script><script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/saved_resource(18)"></script><link rel="stylesheet" type="text/css" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/ApplicationsMenu.css"><link rel="stylesheet" type="text/css" href="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/Modal.css"></head>
+
+
+
+<body class="chrome has-control-menu controls-visible dashboard yui3-skin-sam guest-site signed-in public-page site color-scheme-dashboard" onresize="checkSize()" onload="menu(); start()" onpageshow="login_show()">
+
+<script>
+
+	// document.body.className = localStorage.getItem("theme" ) || "light";
+	//
+	// function switchLight(){
+	// 	var currentState = localStorage.getItem("theme");
+	// 	if(currentState == "light"){
+	// 		localStorage.setItem("theme", "dark")
+	// 		document.body.className = "dark";
+	// 	}
+	// 	else {
+	// 		localStorage.setItem("theme", "light")
+	// 		document.body.className = "light";
+	// 	}
+	// }
+	// $(function(){
+	// 	// this will get the full URL at the address bar
+	// 	var url = window.location.href;
+	//
+	// 	// passes on every "a" tag
+	// 	$(".header .navbar-nav > li > a").each(function() {
+	// 		// checks if its the same on the address bar
+	// 		if(url === (this.href)) {
+	// 			$(this).addClass("active");}
+	// 		else{
+	// 			$(this).removeClass("active");
+	// 		}
+	// 	});
+	// });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav class="quick-access-nav" id="kkze_quickAccessNav">
+		<h1 class="hide-accessible">Навигация</h1>
+
+		<ul>
+			
+				<li><a href="https://se.ifmo.ru/courses/web#main-content">Перейти к содержимому</a></li>
+			
+
+			
+
+		</ul>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="closed d-print-none lfr-product-menu-panel sidenav-fixed sidenav-menu-slider" id="_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavSliderId"><div class="product-menu sidebar sidenav-menu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_  portlet-static portlet-static-end decorate  " id="p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_">
+		<span id="p_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lfr-product-menu-sidebar lfr-applications-menu" id="productMenuSidebar">
+	
+
+	<div class="sidebar-body">
+		
+			
+			
+		
+	</div>
+</div>
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="control-menu-container">
+		
+
+		<div class="control-menu control-menu-level-1 control-menu-level-1-dark d-print-none" data-qa-id="controlMenu" id="ControlMenu">
+			<div class="container-fluid container-fluid-max-xl">
+				<h1 class="sr-only">Admin Header</h1>
+
+				<ul class="control-menu-level-1-nav control-menu-nav" data-namespace="" data-qa-id="header" id="controlMenu">
+
+					
+
+						<li class="control-menu-nav-category sites-control-group">
+							<ul class="control-menu-nav">
+
+								
+
+							</ul>
+						</li>
+
+					
+
+						<li class="control-menu-nav-category tools-control-group">
+							<ul class="control-menu-nav">
+
+								
+
+							</ul>
+						</li>
+
+					
+
+						<li class="control-menu-nav-category user-control-group">
+							<ul class="control-menu-nav">
+
+								
+
+
+
+
+
+
+
+
+
+<li class="control-menu-nav-item control-menu-nav-item-separator"><button class="dropdown-toggle lfr-portal-tooltip btn btn-monospaced btn-sm btn-unstyled" type="button" data-qa-id="applicationsMenu" title="Applications Menu"><svg class="lexicon-icon lexicon-icon-grid" role="presentation" viewBox="0 0 512 512">
+	<path class="lexicon-icon-outline grid-square-3" d="M495.965 0.018h-95.993c-8.813 0-15.981 7.168-15.981 16.017v95.993c0 8.85 7.168 16.017 16.017 16.017h95.993c8.849 0 16.017-7.168 16.017-16.017v-95.993c-0.037-8.85-7.204-16.017-16.054-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-4" d="M112.028 192.005h-95.993c-8.85 0-16.017 7.167-16.017 16.017v95.993c0 8.849 7.168 16.017 16.017 16.017h95.993c8.85 0 15.981-7.168 15.981-16.017v-95.993c0-8.85-7.168-16.017-15.981-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-5" d="M303.978 192.005h-95.993c-8.85 0-16.017 7.167-16.017 16.017v95.993c0 8.849 7.167 16.017 16.017 16.017h95.993c8.849 0 16.017-7.168 16.017-16.017v-95.993c0-8.85-7.168-16.017-16.017-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-6" d="M495.965 192.005h-95.993c-8.849 0-16.017 7.167-16.017 16.017v95.993c0 8.849 7.168 16.017 16.017 16.017h95.993c8.849 0 16.017-7.168 16.017-16.017v-95.993c0-8.85-7.168-16.017-16.017-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-7" d="M112.028 383.991h-95.993c-8.85 0-16.017 7.168-16.017 16.017v95.993c0 8.813 7.168 15.981 16.017 15.981h95.993c8.85 0 15.981-7.168 15.981-16.017v-95.993c0-8.813-7.168-15.981-15.981-15.981z"></path>
+	<path class="lexicon-icon-outline grid-square-8" d="M303.978 383.991h-95.993c-8.85 0-16.017 7.168-16.017 16.017v95.993c0 8.849 7.167 16.017 16.017 16.017h95.993c8.849 0 16.017-7.168 16.017-16.017v-95.993c0-8.849-7.168-16.017-16.017-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-9" d="M495.965 383.991h-95.993c-8.849 0-16.017 7.168-16.017 16.017v95.993c0 8.849 7.168 16.017 16.017 16.017h95.993c8.849-0.037 16.017-7.204 16.017-16.054v-95.993c0-8.813-7.168-15.981-16.017-15.981z"></path>
+	<path class="lexicon-icon-outline grid-square-1" d="M112.028 0.018h-95.993c-8.85 0-16.017 7.168-16.017 16.017v95.993c0 8.814 7.168 15.981 16.017 15.981h95.993c8.85 0 15.981-7.168 15.981-16.017v-95.956c0-8.85-7.168-16.017-15.981-16.017z"></path>
+	<path class="lexicon-icon-outline grid-square-2" d="M303.978 0.018h-95.993c-8.85 0-16.017 7.168-16.017 16.017v95.993c0 8.85 7.167 16.017 16.017 16.017h95.993c8.849 0 16.017-7.168 16.017-16.017v-95.993c0-8.85-7.168-16.017-16.017-16.017z"></path>
+</svg></button></li>
+
+							</ul>
+						</li>
+
+					
+
+				</ul>
+			</div>
+
+			<div class="control-menu-body">
+
+				
+
+			</div>
+
+			<div id="controlMenuAlertsContainer"></div>
+		</div>
+
+		
+	</div>
+
+	
+
+
+		<div id="wrapper">
+
+		<nav id="hat" class="navbar header">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://se.ifmo.ru/">
+						<img id="pic" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/itmo-cs-logo.png" alt="pic">
+					</a>
+				</div>
+				<div id="main-menu">
+					<ul class="nav navbar-nav" style="display: none;">
+						<li style="padding-left: 10px; padding-right: 10px">
+							<a href="https://se.ifmo.ru/web/guest/news" id="news">
+								<span> News </span>
+							</a>
+						</li>
+						<li style="padding-left: 10px; padding-right: 10px">
+							<a href="https://se.ifmo.ru/web/guest/subjects" id="subjects">
+								<span> Subjects </span>
+							</a>
+						</li>
+						<li style="padding-left: 10px; padding-right: 10px">
+							<a href="https://se.ifmo.ru/web/guest/files" id="files">
+								<span> Files </span>
+							</a>
+						</li>
+						<li style="padding-left: 10px; padding-right: 10px">
+							<a href="https://se.ifmo.ru/web/guest/post" id="post">
+								<span> Post </span>
+							</a>
+						</li>
+					</ul>
+
+<nav class="sort-pages modify-pages" id="navigation" role="navigation">
+	<div class="navbar-inner">
+		<div class="navlist">
+			<ul aria-label="Страницы сайта" class="main-list" role="menubar" id="yui_patched_v3_18_1_1_1725449291209_104">
+
+
+
+					<li class="selected dropdown" id="layout_2" role="presentation">
+						<a aria-labelledby="layout_2" aria-haspopup="true" href="https://se.ifmo.ru/home" role="menuitem" tabindex="0" id="yui_patched_v3_18_1_1_1725449291209_123">
+								<span><i class="fas fa-home"></i></span>
+						</a>
+
+
+
+
+					</li>
+
+
+
+					<li class="lfr-nav-item" id="layout_22" role="presentation">
+						<a aria-labelledby="layout_22" href="https://se.ifmo.ru/news" role="menuitem" tabindex="-1" id="yui_patched_v3_18_1_1_1725449291209_125">
+							<span> Новости</span>
+						</a>
+
+
+
+
+					</li>
+
+
+
+					<li class="lfr-nav-item" id="layout_5" role="presentation">
+						<a aria-labelledby="layout_5" href="https://se.ifmo.ru/files" role="menuitem" tabindex="-1" id="yui_patched_v3_18_1_1_1725449291209_127">
+							<span> Файлы</span>
+						</a>
+
+
+
+
+					</li>
+
+
+
+					<li class="lfr-nav-item" id="layout_20" role="presentation">
+						<a aria-labelledby="layout_20" href="https://se.ifmo.ru/mail/" role="menuitem" tabindex="-1" id="yui_patched_v3_18_1_1_1725449291209_129">
+							<span> Почта</span>
+						</a>
+
+
+
+
+					</li>
+			</ul>
+		</div>
+	</div>
+				</nav></div>
+					<div class="last_element_in_list">
+						<a href="https://se.ifmo.ru/c/portal/logout" id="sign-out">Выйти</a>
+						<a href="https://se.ifmo.ru/c/portal/logout"><img id="pic-sign-out" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/pic-sign-out.png" alt="pic" style="height: 25px;
+                                                                                                    width: 25px; filter: invert(1); cursor: pointer;">
+					</a>
+					</div>
+			</div>
+		</nav>
+			<div id="banner">
+				<script>
+                                    function img_banner() {
+                                        let banner = $('#banner-img');
+                                        banner.remove('#banner-img');
+                                    }
+				</script>
+
+                                    <div class="false_banner"></div>
+                                    <style>
+                                            #p_p_id_com_liferay_login_web_portlet_LoginPortlet_{
+                                                    margin-top: 260px;
+                                            }
+                                    </style>
+
+			</div>
+
+
+
+			<script data-senna-track="temporary">
+				window.removeEventListener('scroll');
+			</script>
+
+
+	<div id="content">
+
+
+
+
+	<h1 class="hide-accessible">Веб-программирование</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="columns-1" id="main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">web</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-860589" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="860587" data-analytics-asset-title="web" data-analytics-asset-type="web-content">
+	
+
+	<h3>Веб-программирование</h3><ul id="yui_patched_v3_11_0_1_1418938935139_829"><li><a href="https://se.ifmo.ru/files/-/document_library/5e8j9w0OFoeD/view_file/11566?_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect=http%3A%2F%2F192.168.4.24%3A8080%2Fweb%2Fguest%2Ffiles%2F-%2Fdocument_library%2F5e8j9w0OFoeD%2Fview%2F11512%3F_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect%3Dhttp%253A%252F%252F192.168.4.24%253A8080%252Fweb%252Fguest%252Ffiles%253Fp_p_id%253Dcom_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview">Слайды с лекций (2020, требуется авторизация)</a></li><li><a target="_blank" href="https://www.youtube.com/watch?v=J78e_88FTvg&amp;list=PLBWafxh1dFuzOL-NPuOSmo5HLhboAAOWV">Видео лекций (осень 2020)</a></li><li><a href="https://se.ifmo.ru/files/-/document_library/5e8j9w0OFoeD/view_file/797615?_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect=http%3A%2F%2F192.168.4.24%3A8080%2Fweb%2Fguest%2Ffiles%2F-%2Fdocument_library%2F5e8j9w0OFoeD%2Fview%2F11512%3F_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect%3Dhttp%253A%252F%252F192.168.4.24%253A8080%252Fweb%252Fguest%252Ffiles%253Fp_p_id%253Dcom_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview">Лекция по Spring (2017)</a></li><li><a href="https://se.ifmo.ru/documents/10192/0/%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F+%D0%BF%D0%BE+React.+%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F+%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F+%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F.pdf/756f59bb-d0e0-4e60-a0a7-04b6c8aefc63">Лекция по React (2019)</a></li><li><a href="https://se.ifmo.ru/files/-/document_library/5e8j9w0OFoeD/view_file/1136695?_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect=http%3A%2F%2F192.168.4.24%3A8080%2Fweb%2Fguest%2Ffiles%2F-%2Fdocument_library%2F5e8j9w0OFoeD%2Fview%2F11512%3F_com_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD_redirect%3Dhttp%253A%252F%252F192.168.4.24%253A8080%252Fweb%252Fguest%252Ffiles%253Fp_p_id%253Dcom_liferay_document_library_web_portlet_DLPortlet_INSTANCE_5e8j9w0OFoeD%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview">Лекция по Angular (2018)</a></li><li><a href="https://se.ifmo.ru/courses/web#labs">Задания к лабораторным работам</a></li><li><a href="https://se.ifmo.ru/documents/10180/11512/fastcgi-lib.jar/7493e31c-ee90-6e5b-f315-d8468347755e">FastCGI библиотека для лабораторной работы №1</a></li><li><a href="https://se.ifmo.ru/documents/10180/11512/httpd-conf-template.conf/bd03766f-8bc1-23ef-0ea9-cfff41e5322e">Шаблон конфигурационного файла http.conf для Apache httpd для лабораторной работы №1</a></li></ul>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+		<div class="asset-links content-metadata-asset-addon-entries mb-4">
+			
+
+
+
+
+
+
+
+
+
+<div class="content-metadata-asset-addon-entry content-metadata-asset-addon-entry-links">
+	
+</div>
+		</div>
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Lab</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-1614312" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="1614310" data-analytics-asset-title="Lab" data-analytics-asset-type="web-content">
+	
+
+	<style type="text/css">.text-lab{
+    margin-top: 10px;
+        width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #101b27;
+    border-width: 2px;
+    background-color: #101b27;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #f3dd73;
+    box-shadow: 0px 1px 4px 1px #0c2544;
+    }
+    #labs{
+        width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 70px;
+    }</style><p class="text-lab">Лабораторные работы</p><p style=" position: relative;"><a id="labs"></a></p>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 1 - title</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-860539" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="860537" data-analytics-asset-title="iaps - lab 1 - title" data-analytics-asset-type="web-content">
+	
+
+	<div class="journal-content-article" id="yui_patched_v3_11_0_1_1504628706766_2973">
+<h3 id="yui_patched_v3_11_0_1_1504628706766_2972"><a id="lab1" name="lab1"></a>Лабораторная работа #1</h3>
+</div>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_iapsportletlab6_WAR_iapsportlet_  portlet-static portlet-static-end decorate  " id="p_p_id_iapsportletlab6_WAR_iapsportlet_">
+		<span id="p_iapsportletlab6_WAR_iapsportlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_iapsportletlab6_WAR_iapsportlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Lab 6</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	function _iapsportletlab6_WAR_iapsportlet_setVar(variant) {
+		d = new Date();
+		
+		$('#_iapsportletlab6_WAR_iapsportlet_imageBlock').html("<img src='/o/iaps-portlet/images/loading.gif'>");
+		
+		$.ajax({
+			type: "POST",
+			data: {"var" : variant},
+			url: "https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab6_WAR_iapsportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_iapsportletlab6_WAR_iapsportlet_javax.portlet.action=getTask&p_auth=KYR0qP0W",
+			success : function(msg) {
+				$('#_iapsportletlab6_WAR_iapsportlet_textBlock').html(msg);
+				$('#_iapsportletlab6_WAR_iapsportlet_imageBlock').html("<img style='border: 1px solid;' src='https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab6_WAR_iapsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage?" + d.getTime() + "'>");
+			}
+		});
+	}
+	
+	function _iapsportletlab6_WAR_iapsportlet_submitOnEnter(evt, variant){
+		var charCode = (evt.which) ? evt.which : event.keyCode;
+		if(charCode == "13"){
+			 _iapsportletlab6_WAR_iapsportlet_setVar(variant);
+		}
+	}
+</script>
+
+<div class="areas">
+	<div style="text-align: right;">
+		<label for="_iapsportletlab6_WAR_iapsportlet_var">Вариант</label>
+		<input type="text" size="4" maxlength="8" id="_iapsportletlab6_WAR_iapsportlet_var" name="var" onchange=" _iapsportletlab6_WAR_iapsportlet_setVar(this.value)" onkeypress="_iapsportletlab6_WAR_iapsportlet_submitOnEnter(evt, this.value)">
+	</div>
+                
+        <div class="task" id="_iapsportletlab6_WAR_iapsportlet_textBlock"><h3>Внимание! У разных вариантов разный текст задания!</h3><p>Разработать FastCGI сервер на языке Java, определяющий попадание точки на координатной плоскости в заданную область, и создать HTML-страницу, которая формирует данные для отправки их на обработку этому серверу.</p><p>Параметр R и координаты точки должны передаваться серверу посредством HTTP-запроса. Сервер должен выполнять валидацию данных и возвращать HTML-страницу с таблицей, содержащей полученные параметры и результат вычислений - факт попадания или непопадания точки в область (допускается в ответе сервера возвращать json строку, вместо html-страницы). Предыдущие результаты должны сохраняться между запросами и отображаться в таблице.</p><p>Кроме того, ответ должен содержать данные о текущем времени и времени работы скрипта.</p><b>Комментарии по выполнению ЛР:</b><ul><li>Требуется поднять Apache httpd веб-сервер от лица своего пользователя на гелиосе (шаблон файла конфигурации доступен для скачивания наверху страницы)</li><li>Веб-сервер должен заниматься обслуживанием статического контента (html, css, js) и перенаправлять запросы за динамическим контентом к FastCGI серверу</li><li>FastCGI сервер требуется реализовать на языке Java (полезная библиотека в помощь в виде jar архива доступна для скачивания наверху страницы) и поднять также на гелиосе</li><li><b>Путем обращений из JavaScript к FastCGI серверу требуется показать понимание принципа AJAX</b></li></ul><b>Разработанная HTML-страница должна удовлетворять следующим требованиям:</b><ul><li>Для расположения текстовых и графических элементов необходимо использовать блочную верстку.</li><li>Данные формы должны передаваться на обработку посредством POST-запроса.</li><li>Таблицы стилей должны располагаться в отдельных файлах.</li><li>При работе с CSS должно быть продемонстрировано использование селекторов псевдоэлементов, селекторов атрибутов, селекторов идентификаторов, селекторов псевдоклассов а также такие свойства стилей CSS, как наследование и каскадирование.</li><li>HTML-страница должна иметь "шапку", содержащую ФИО студента, номер группы и новер варианта. При оформлении шапки необходимо явным образом задать шрифт (cursive), его цвет и размер в каскадной таблице стилей.</li><li>Отступы элементов ввода должны задаваться в процентах.</li><li>Страница должна содержать сценарий на языке JavaScript, осуществляющий валидацию значений, вводимых пользователем в поля формы. Любые некорректные значения (например, буквы в координатах точки или отрицательный радиус) должны блокироваться.</li></ul></div>
+	
+	<div id="_iapsportletlab6_WAR_iapsportlet_imageBlock" style="text-align: center;"><img style="border: 1px solid;" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/areas.png"></div>
+</div>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content .portlet-content-editable" id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 2-6 - questions</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-104325" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="104323" data-analytics-asset-title="iaps - lab 2-6 - questions" data-analytics-asset-type="web-content">
+	
+
+	<p><strong>Вопросы к защите лабораторной работы:</strong></p><ol id="aui_3_4_0_1_806"><li id="aui_3_4_0_1_805">Протокол HTTP. Структура запросов и ответов, методы запросов, коды ответов сервера, заголовки запросов и ответов.</li><li>Язык разметки HTML. Особенности, основные теги и атрибуты тегов.</li><li>Структура HTML-страницы. Объектная модель документа (DOM).</li><li>HTML-формы. Задание метода HTTP-запроса. Правила размещения форм на страницах, виды полей ввода.</li><li id="aui_3_4_0_1_826">Каскадные таблицы стилей (CSS). Структура - правила, селекторы. Виды селекторов, особенности их применения. Приоритеты правил. Преимущества CSS перед непосредственным заданием стилей через атрибуты тегов.</li><li>LESS, Sass, SCSS. Ключевые особенности, сравнительные характеристики. Совместимость с браузерами, трансляция в "обычный" CSS.</li><li id="aui_3_4_0_1_2066">Клиентские сценарии. Особенности, сферы применения. Язык JavaScript.</li><li>Версии ECMAScript, новые возможности ES6 и ES7.</li><li id="aui_3_4_0_1_2029">Синхронная и асинхронная обработка HTTP-запросов. AJAX.</li><li>Библиотека jQuery. Назначение, основные API. Использование для реализации AJAX и работы с DOM.</li><li>Реализация AJAX с помощью SuperAgent.</li><li>Серверные сценарии. CGI - определение, назначение, ключевые особенности.</li><li>FastCGI - особенности технологии, преимущества и недостатки относительно CGI.</li><li>FastCGI сервер на языке Java.</li></ol>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 2 - title</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-860551" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="860549" data-analytics-asset-title="iaps - lab 2 - title" data-analytics-asset-type="web-content">
+	
+
+	<div class="journal-content-article" id="yui_patched_v3_11_0_1_1504628872399_1856">
+<h3 id="yui_patched_v3_11_0_1_1504628872399_1855"><a id="lab2" name="lab2"></a>Лабораторная работа #2</h3>
+</div>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+		<div class="asset-links content-metadata-asset-addon-entries mb-4">
+			
+
+
+
+
+
+
+
+
+
+<div class="content-metadata-asset-addon-entry content-metadata-asset-addon-entry-links">
+	
+</div>
+		</div>
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_iapsportletlab7_WAR_iapsportlet_  portlet-static portlet-static-end decorate  " id="p_p_id_iapsportletlab7_WAR_iapsportlet_">
+		<span id="p_iapsportletlab7_WAR_iapsportlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_iapsportletlab7_WAR_iapsportlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Lab 7</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<script>
+	function _iapsportletlab7_WAR_iapsportlet_setVar(variant) {
+		d = new Date();
+
+		$('#_iapsportletlab7_WAR_iapsportlet_varBlock').html("<img src='/o/iaps-portlet/images/loading.gif'>");
+
+		$.ajax({
+			type: "POST",
+			data: {"var" : variant},
+			url: "https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab7_WAR_iapsportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_iapsportletlab7_WAR_iapsportlet_javax.portlet.action=getTask&p_auth=KYR0qP0W",
+			success : function(msg) {
+				$('#_iapsportletlab7_WAR_iapsportlet_varBlock').html("<img style='border: 1px solid;' src='https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab7_WAR_iapsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage?" + d.getTime() + "'>");
+			}
+		});
+	}
+
+	function _iapsportletlab7_WAR_iapsportlet_submitOnEnter(evt, variant){
+		var charCode = (evt.which) ? evt.which : event.keyCode;
+		if(charCode == "13"){
+			 _iapsportletlab7_WAR_iapsportlet_setVar(variant);
+		}
+	}
+</script>
+
+<div class="areas">
+	<div style="margin: 10px 0; text-align: right;">
+		<label for="_iapsportletlab7_WAR_iapsportlet_var">Вариант</label>
+
+		<input type="text" size="4" maxlength="8" id="_iapsportletlab7_WAR_iapsportlet_var" name="var" onchange=" _iapsportletlab7_WAR_iapsportlet_setVar(this.value)" onkeypress="_iapsportletlab7_WAR_iapsportlet_submitOnEnter(evt, this.value)">
+	</div>
+
+	<div class="task" id="_iapsportletlab7_WAR_iapsportlet_textBlock">
+		<span class="portlet-msg-info"> Чтобы получить задание, введите свой номер варианта. </span>
+	</div>
+	<div id="_iapsportletlab7_WAR_iapsportlet_varBlock" style="text-align: center;"><img style="border: 1px solid;" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/areas(1).png"></div>
+</div>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 2-7</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-104381" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="104379" data-analytics-asset-title="iaps - lab 2-7" data-analytics-asset-type="web-content">
+	
+
+	<p id="aui_3_4_0_1_11663">Разработать веб-приложение на базе сервлетов и JSP, определяющее попадание точки на координатной плоскости в заданную область.</p>
+
+<p>Приложение должно быть реализовано в соответствии с <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">шаблоном MVC</a> и состоять из следующих элементов:</p>
+
+<ul>
+	<li><strong>ControllerServlet</strong>, определяющий тип запроса, и, в зависимости от того, содержит ли запрос информацию о координатах точки и радиусе, делегирующий его обработку одному из перечисленных ниже компонентов. Все запросы внутри приложения должны передаваться этому сервлету (по методу GET или POST в зависимости от варианта задания), остальные сервлеты с веб-страниц напрямую вызываться не должны.</li>
+	<li><strong>AreaCheckServlet</strong>, осуществляющий проверку попадания точки в область на координатной плоскости и формирующий HTML-страницу с результатами проверки. Должен обрабатывать все запросы, содержащие сведения о координатах точки и радиусе области.</li>
+	<li><strong>Страница JSP</strong>, формирующая HTML-страницу с веб-формой. Должна обрабатывать все запросы, не содержащие сведений о координатах точки и радиусе области.</li>
+</ul>
+
+<p id="yui_patched_v3_11_0_1_1489348727524_1267"><strong id="yui_patched_v3_11_0_1_1489348727524_1266">Разработанная страница JSP должна содержать:</strong></p>
+
+<ol id="aui_3_4_0_1_11617">
+	<li>"Шапку", содержащую ФИО студента, номер группы и номер варианта.</li>
+	<li>Форму, отправляющую данные на сервер.</li>
+	<li id="aui_3_4_0_1_11616">Набор полей для задания координат точки и радиуса области в соответствии с вариантом задания.</li>
+	<li>Сценарий на языке JavaScript, осуществляющий валидацию значений, вводимых пользователем в поля формы.</li>
+	<li>Интерактивный элемент, содержащий изображение области на координатной плоскости (в соответствии с вариантом задания) и реализующий следующую функциональность:
+	<ul>
+		<li>Если радиус области установлен, клик курсором мыши по изображению должен обрабатываться JavaScript-функцией, определяющей координаты точки, по которой кликнул пользователь и отправляющей полученные координаты на сервер для проверки факта попадания.</li>
+		<li>В противном случае, после клика по картинке должно выводиться сообщение о невозможности определения координат точки.</li>
+		<li>После проверки факта попадания точки в область изображение должно быть обновлено с учётом результатов этой проверки (т.е., на нём должна появиться новая точка).</li>
+	</ul>
+	</li>
+	<li>Таблицу с результатами предыдущих проверок. Список результатов должен браться из контекста приложения, HTTP-сессии или Bean-компонента в зависимости от варианта.</li>
+</ol>
+
+<p><strong>Страница, возвращаемая AreaCheckServlet, должна содержать:</strong></p>
+
+<ol>
+	<li>Таблицу, содержащую полученные параметры.</li>
+	<li>Результат вычислений - факт попадания или непопадания точки в область.</li>
+	<li>Ссылку на страницу с веб-формой для формирования нового запроса.</li>
+</ol>
+
+<p id="aui_3_4_0_1_11640">Разработанное веб-приложение необходимо развернуть на сервере <a href="https://wildfly.org/" target="_blank">WildFly</a>. Сервер должен быть запущен в standalone-конфигурации, порты должны быть настроены в соответствии с выданным portbase, доступ к http listener'у должен быть открыт для всех IP.</p>
+
+<p id="aui_3_4_0_1_2004"><strong id="aui_3_4_0_1_2003">Вопросы к защите лабораторной работы:</strong></p>
+
+<ol id="aui_3_4_0_1_2030">
+	<li>Java-сервлеты. Особенности реализации, ключевые методы, преимущества и недостатки относительно CGI и FastCGI.</li>
+	<li>Контейнеры сервлетов. Жизненный цикл сервлета.</li>
+	<li>Диспетчеризация запросов в сервлетах. Фильтры сервлетов.</li>
+	<li>HTTP-сессии - назначение, взаимодействие сервлетов с сессией, способы передачи идентификатора сессии.</li>
+	<li>Контекст сервлета - назначение, способы взаимодействия сервлетов с контекстом.</li>
+	<li id="yui_patched_v3_11_0_1_1489348727524_1334">JavaServer Pages. Особенности, преимущества и недостатки по сравнению с сервлетами, область применения.</li>
+	<li>Жизненный цикл JSP.</li>
+	<li>Структура JSP-страницы. Комментарии, директивы, объявления, скриптлеты и выражения.</li>
+	<li>Правила записи Java-кода внутри JSP. Стандартные переменные, доступные в скриптлетах и выражениях.</li>
+	<li>Bean-компоненты и их использование в JSP.</li>
+	<li>Стандартные теги JSP. Использование Expression Language (EL) в JSP.</li>
+	<li>Параметры конфигурации JSP в дескрипторе развёртывания веб-приложения.</li>
+	<li>Шаблоны проектирования и архитектурные шаблоны. Использование в веб-приложениях.</li>
+	<li>Архитектура веб-приложений. Шаблон MVC. Архитектурные модели Model 1 и Model 2 и их реализация на платформе Java EE.</li>
+</ol>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 3 - title</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-860563" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="860561" data-analytics-asset-title="iaps - lab 3 - title" data-analytics-asset-type="web-content">
+	
+
+	<div class="journal-content-article" id="yui_patched_v3_11_0_1_1504628872399_1856">
+<h3 id="yui_patched_v3_11_0_1_1504628872399_1855"><a id="lab3" name="lab3"></a>Лабораторная работа #3</h3>
+</div>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_iapsportletlab8_WAR_iapsportlet_  portlet-static portlet-static-end decorate  " id="p_p_id_iapsportletlab8_WAR_iapsportlet_">
+		<span id="p_iapsportletlab8_WAR_iapsportlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_iapsportletlab8_WAR_iapsportlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Lab 8</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function _iapsportletlab8_WAR_iapsportlet_setVar(variant) {
+        d = new Date();
+
+        $('#_iapsportletlab8_WAR_iapsportlet_imageBlock').html("<img src='/o/iaps-portlet/images/loading.gif'>");
+
+        $.ajax({
+            type: "POST",
+            data: {"var" : variant},
+            url: "https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab8_WAR_iapsportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_iapsportletlab8_WAR_iapsportlet_javax.portlet.action=getTask&p_auth=KYR0qP0W",
+            success : function(msg) {
+                $('#_iapsportletlab8_WAR_iapsportlet_textBlock').html(msg);
+                $('#_iapsportletlab8_WAR_iapsportlet_imageBlock').html("<img style='border: 1px solid;' src='https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab8_WAR_iapsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage?" + d.getTime() + "'>");
+            }
+        });
+    }
+
+    function _iapsportletlab8_WAR_iapsportlet_submitOnEnter(evt, variant){
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+        if(charCode == "13"){
+             _iapsportletlab8_WAR_iapsportlet_setVar(variant);
+        }
+    }
+</script>
+
+<div class="areas">
+    <div style="text-align: right;">
+        <label for="_iapsportletlab8_WAR_iapsportlet_var">Вариант</label>
+        <input type="text" size="4" maxlength="8" id="_iapsportletlab8_WAR_iapsportlet_var" name="var" onchange=" _iapsportletlab8_WAR_iapsportlet_setVar(this.value)" onkeypress="_iapsportletlab8_WAR_iapsportlet_submitOnEnter(evt, this.value)">
+    </div>
+        
+    <div class="task" id="_iapsportletlab8_WAR_iapsportlet_textBlock">
+        <span class="portlet-msg-info"> Чтобы получить задание, введите свой номер варианта. </span>
+    </div>
+
+    <div id="_iapsportletlab8_WAR_iapsportlet_imageBlock" style="text-align: center;"><img style="border: 1px solid;" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/areas(2).png"></div>
+</div>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 2-9 - questions</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-125440" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="125438" data-analytics-asset-title="iaps - lab 2-9 - questions" data-analytics-asset-type="web-content">
+	
+
+	<p id="aui_3_4_0_1_506"><strong id="aui_3_4_0_1_505">Вопросы к защите лабораторной работы:</strong></p>
+
+<ol id="aui_3_4_0_1_537">
+	<li id="aui_3_4_0_1_536">Технология JavaServer Faces. Особенности, отличия от сервлетов и JSP, преимущества и недостатки. Структура JSF-приложения.</li>
+	<li>Использование JSP-страниц и Facelets-шаблонов в JSF-приложениях.</li>
+	<li>JSF-компоненты - особенности реализации, иерархия классов. Дополнительные библиотеки компонентов. Модель обработки событий в JSF-приложениях.</li>
+	<li>Конвертеры и валидаторы данных.</li>
+	<li>Представление страницы JSF на стороне сервера. Класс UIViewRoot.</li>
+	<li>Управляемые бины - назначение, способы конфигурации. Контекст управляемых бинов.</li>
+	<li>Конфигурация JSF-приложений. Файл faces-config.xml. Класс FacesServlet.</li>
+	<li>Навигация в JSF-приложениях.</li>
+	<li>Доступ к БД из Java-приложений. Протокол JDBC, формирование запросов, работа с драйверами СУБД.</li>
+	<li>Концепция ORM. Библиотеки ORM в приложениях на Java. Основные API. Интеграция ORM-провайдеров с драйверами JDBC.</li>
+	<li>Библиотеки ORM Hibernate и EclipseLink. Особенности, API, сходства и отличия.</li>
+	<li>Технология JPA. Особенности, API, интеграция с ORM-провайдерами.</li>
+</ol>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 4 - title</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-860574" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="860572" data-analytics-asset-title="iaps - lab 4 - title" data-analytics-asset-type="web-content">
+	
+
+	<div class="journal-content-article" id="yui_patched_v3_11_0_1_1504628872399_1856">
+<h3 id="yui_patched_v3_11_0_1_1504628872399_1855"><a id="lab4" name="lab4"></a>Лабораторная работа #4</h3>
+</div>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_iapsportletlab9_WAR_iapsportlet_  portlet-static portlet-static-end decorate  " id="p_p_id_iapsportletlab9_WAR_iapsportlet_">
+		<span id="p_iapsportletlab9_WAR_iapsportlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_iapsportletlab9_WAR_iapsportlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Lab 9</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function _iapsportletlab9_WAR_iapsportlet_setVar(variant) {
+        d = new Date();
+
+        $('#_iapsportletlab9_WAR_iapsportlet_imageBlock').html("<img src='/o/iaps-portlet/images/loading.gif'>");
+
+        $.ajax({
+            type: "POST",
+            data: {"var" : variant},
+            url: "https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab9_WAR_iapsportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_iapsportletlab9_WAR_iapsportlet_javax.portlet.action=getTask&p_auth=KYR0qP0W",
+            success : function(msg) {
+                $('#_iapsportletlab9_WAR_iapsportlet_textBlock').html(msg);
+                $('#_iapsportletlab9_WAR_iapsportlet_imageBlock').html("<img style='border: 1px solid;' src='https://se.ifmo.ru/courses/web?p_p_id=iapsportletlab9_WAR_iapsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage?" + d.getTime() + "'>");
+            }
+        });
+    }
+
+    function _iapsportletlab9_WAR_iapsportlet_submitOnEnter(evt, variant){
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+        if(charCode == "13"){
+             _iapsportletlab9_WAR_iapsportlet_setVar(variant);
+        }
+    }
+</script>
+
+<div class="areas">
+    <div style="text-align: right;">
+        <label for="_iapsportletlab9_WAR_iapsportlet_var">Вариант</label>
+        <input type="text" size="4" maxlength="8" id="_iapsportletlab9_WAR_iapsportlet_var" name="var" onchange=" _iapsportletlab9_WAR_iapsportlet_setVar(this.value)" onkeypress="_iapsportletlab9_WAR_iapsportlet_submitOnEnter(evt, this.value)">
+    </div>
+        
+    <div class="task" id="_iapsportletlab9_WAR_iapsportlet_textBlock">
+        <span class="portlet-msg-info"> Чтобы получить задание, введите свой номер варианта. </span>
+    </div>
+
+    <div id="_iapsportletlab9_WAR_iapsportlet_imageBlock" style="text-align: center;"><img style="border: 1px solid;" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/areas(3).png"></div>
+</div>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">iaps - lab 9 - questions</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+	
+		
+
+		
+
+		
+
+		
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10108-113353" data-fragments-editor-item-type="fragments-editor-mapped-item">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="journal-content-article " data-analytics-asset-id="113351" data-analytics-asset-title="iaps - lab 9 - questions" data-analytics-asset-type="web-content">
+	
+
+	<strong>Вопросы к защите лабораторной работы:</strong>
+
+<ol>
+	<li>Платформа Java EE. Спецификации и их реализации.</li>
+	<li>Принципы IoC, CDI и Location Transpanency. Компоненты и контейнеры.</li>
+	<li>Управление жизненным циклом компонентов. Дескрипторы развёртывания.</li>
+	<li>Java EE API. Виды компонентов. Профили платформы Java EE.</li>
+	<li>Компоненты EJB. Stateless &amp; Stateful Session Beans. EJB Lite и EJB Full.</li>
+	<li>Работа с электронной почтой в Java EE. JavaMail API.</li>
+	<li>JMS. Реализация очередей сообщений. Способы доставки сообщений до клиента. Message-Driven Beans.</li>
+	<li>Понятие транзакции. Управление транзакциями в Java EE. JTA.</li>
+	<li>Веб-сервисы. Технологии JAX-RS и JAX-WS.</li>
+	<li>Платформа Spring. Сходства и отличия с Java EE.</li>
+	<li>Модули Spring. Архитектура Spring Runtime. Spring Security и Spring Data.</li>
+	<li>Реализация IoC и CDI в Spring. Сходства и отличия с Java EE.</li>
+	<li>Реализация REST API в Java EE и Spring.</li>
+	<li>React JS. Архитектура и основные принципы разработки приложений.</li>
+	<li>Компоненты React. State &amp; props. "Умные" и "глупые" компоненты.</li>
+	<li>Разметка страниц в React-приложениях. JSX.</li>
+	<li>Навигация в React-приложениях. ReactRouter.</li>
+	<li>Управление состоянием интерфейса. Redux.</li>
+	<li>Angular: архитектура и основные принципы разработки приложений.</li>
+	<li>Angular: модули, компоненты, сервисы и DI.</li>
+	<li>Angular: шаблоны страниц, жизненный цикл компонентов, подключение CSS.</li>
+	<li>Angular: клиент-серверное взаимодействие, создание, отправка и валидация данных форм.</li>
+</ol>
+</div>
+
+
+
+
+
+							
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://se.ifmo.ru/courses/web#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><input hidden="" type="submit"></form>	</div>
+<footer class="footer">
+	<div class="container">
+		<a class="footer-brand" style="text-decoration: none;">
+			<img id="picfoot" src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/cs_logo.png" alt="pic">
+			<span style="color: #bbb !important;"> © 2021, Университет ИТМО, факультет ПИиКТ, бывшая кафедра ВТ</span>
+		</a>
+	</div>
+</footer>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/combo(6)" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	
+		
+
+			
+
+			
+		
+	
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fcourses\x2fweb';
+		Liferay.currentURLEncoded = '\x252Fcourses\x252Fweb';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+				
+
+				
+
+				
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {var $ = AUI.$;var _ = AUI._;
+	var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+?)\/([^&]+)/;
+
+	function handleDownloadClick(event) {
+		if (event.target.nodeName.toLowerCase() === 'a' && window.Analytics) {
+			var anchor = event.target;
+			var match = pathnameRegexp.exec(anchor.pathname);
+
+			var fileEntryId =
+				anchor.dataset.analyticsFileEntryId ||
+				(anchor.parentElement &&
+					anchor.parentElement.dataset.analyticsFileEntryId);
+
+			if (fileEntryId && match) {
+				var getParameterValue = function (parameterName) {
+					var result = null;
+
+					anchor.search
+						.substr(1)
+						.split('&')
+						.forEach(function (item) {
+							var tmp = item.split('=');
+
+							if (tmp[0] === parameterName) {
+								result = decodeURIComponent(tmp[1]);
+							}
+						});
+
+					return result;
+				};
+
+				Analytics.send('documentDownloaded', 'Document', {
+					groupId: match[1],
+					fileEntryId: fileEntryId,
+					preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+					title: decodeURIComponent(match[3].replace(/\+/gi, ' ')),
+					version: getParameterValue('version'),
+				});
+			}
+		}
+	}
+
+	document.addEventListener('DOMContentLoaded', function () {
+		document.body.addEventListener('click', handleDownloadClick);
+	});
+
+	var onDestroyPortlet = function () {
+		document.body.removeEventListener('click', handleDownloadClick);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			Analytics.send('posted', 'Comment', {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			});
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	function showDialog(uri, title) {
+		Liferay.Util.openModal({
+			id: 'sharingDialog',
+			iframeBodyCssClass: 'sharing-dialog',
+			title: Liferay.Util.escapeHTML(title),
+			url: uri,
+		});
+	}
+
+	var Sharing = {
+		manageCollaborators: function (classNameId, classPK) {
+			var manageCollaboratorsParameters = {
+				classNameId: classNameId,
+				classPK: classPK,
+			};
+
+			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
+				'https://se.ifmo.ru/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet_mvcRenderCommandName=%2Fsharing%2Fmanage_collaborators&p_p_auth=Uj2k546l',
+				manageCollaboratorsParameters
+			);
+
+			showDialog(
+				manageCollaboratorsURL.toString(),
+				'Manage Collaborators'
+			);
+		},
+
+		share: function (classNameId, classPK, title) {
+			var sharingParameters = {
+				classNameId: classNameId,
+				classPK: classPK,
+			};
+
+			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
+				'https://se.ifmo.ru/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_SharingPortlet_mvcRenderCommandName=%2Fsharing%2Fshare&p_p_auth=aMAlfkHC',
+				sharingParameters
+			);
+
+			showDialog(sharingURL.toString(), title);
+		},
+	};
+
+	Liferay.Sharing = Sharing;
+})();
+	if (Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				attributeName: 'data-href',
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+	
+		Liferay.Portlet.register('iapsportletlab7_WAR_iapsportlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 6,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_iapsportletlab7_WAR_iapsportlet_',
+			portletId: 'iapsportletlab7_WAR_iapsportlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3diapsportletlab7_WAR_iapsportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d6\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 4,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_l5apN45sIcFh\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d4\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aXqkzYTgtv5x\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IJzWPL0NsnGX\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 5,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MfpzkdSG6G8D\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d5\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 13,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_krWM6MACeZL8\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d13\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('iapsportletlab8_WAR_iapsportlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 9,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_iapsportletlab8_WAR_iapsportlet_',
+			portletId: 'iapsportletlab8_WAR_iapsportlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3diapsportletlab8_WAR_iapsportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d9\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 8,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_r2uqemdWRU29\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d8\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 10,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wngRWZQjBw0C\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d10\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 11,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_M00wSZruT5B4\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d11\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 2,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_VBKvUF3m0Xtx\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('iapsportletlab6_WAR_iapsportlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 3,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_iapsportletlab6_WAR_iapsportlet_',
+			portletId: 'iapsportletlab6_WAR_iapsportlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3diapsportletlab6_WAR_iapsportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('iapsportletlab9_WAR_iapsportlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 12,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_iapsportletlab9_WAR_iapsportlet_',
+			portletId: 'iapsportletlab9_WAR_iapsportlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3diapsportletlab9_WAR_iapsportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d12\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 7,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_mzzBRxpJPM65\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d7\x26p_p_col_count\x3d14\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_',
+			portletId: 'com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10766\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fcourses\x252Fweb\x26settingsScope\x3dportletInstance',
+			refreshURLData: {}
+		}
+	);
+Liferay.Loader.require('portal-template-react-renderer-impl@4.0.7/render.es', 'product-navigation-applications-menu@1.0.2/js/ApplicationsMenu', 'metal-dom/src/all/dom', function(portalTemplateReactRendererImpl407RenderEs, productNavigationApplicationsMenu102JsApplicationsMenu, metalDomSrcAllDom) {
+try {
+(function() {
+var renderdupk = portalTemplateReactRendererImpl407RenderEs;
+var renderFunctiondupk = productNavigationApplicationsMenu102JsApplicationsMenu;
+renderdupk.default(renderFunctiondupk.default, {"componentId":null,"companyName":"Программная инженерия - Кафедра ВТ","panelAppsURL":"https:\/\/se.ifmo.ru\/courses\/web?p_p_id=com_liferay_product_navigation_applications_menu_web_internal_portlet_ProductNavigationApplicationsMenuPortlet&p_p_lifecycle=2&p_p_resource_id=%2Fapplications_menu%2Fpanel_apps&p_p_cacheability=cacheLevelPage&p_p_auth=BeFNqGAs","portletId":null,"selectedPortletId":"","locale":{"ISO3Country":"RUS","ISO3Language":"rus","country":"RU","displayCountry":"Russia","displayLanguage":"Russian","displayName":"Russian (Russia)","displayScript":"","displayVariant":"","extensionKeys":[],"language":"ru","script":"","unicodeLocaleAttributes":[],"unicodeLocaleKeys":[],"variant":""},"logoURL":"\/image\/company_logo?img_id=10734&t=1724845669348"}, 'dupk');
+})();
+(function() {
+var dom = metalDomSrcAllDom;
+var $ = AUI.$;var _ = AUI._;
+	var focusInPortletHandler = dom.delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			dom.addClasses(dom.closest(event.delegateTarget, '.portlet'), 'open');
+		}
+	);
+
+	var focusOutPortletHandler = dom.delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			dom.removeClasses(dom.closest(event.delegateTarget, '.portlet'), 'open');
+		}
+	);
+
+})();
+} catch (err) {
+	console.error(err);
+}
+});AUI().use('liferay-product-navigation-control-menu', 'liferay-menu', 'aui-base', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+		Liferay.ControlMenu.init('#controlMenu');
+
+		var sidenavToggles = document.querySelectorAll(
+			'#ControlMenu [data-toggle="liferay-sidenav"]'
+		);
+
+		var sidenavInstances = Array.from(sidenavToggles).map(function (toggle) {
+			return Liferay.SideNavigation.instance(toggle);
+		});
+
+		sidenavInstances.forEach(function (instance) {
+			instance.on('openStart.lexicon.sidenav', function (event, source) {
+				sidenavInstances.forEach(function (sidenav) {
+					if (sidenav !== source) {
+						sidenav.hide();
+					}
+				});
+			});
+		});
+	})();(function() {var $ = AUI.$;var _ = AUI._;
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/main.js" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		AUI().use(
+			'aui-base',
+			function(A) {
+				var frameElement = window.frameElement;
+
+				if (frameElement && frameElement.getAttribute('id') === 'simulationDeviceIframe') {
+					A.getBody().addClass('lfr-has-simulation-panel');
+				}
+			}
+		);
+	// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-alert-support-web@1.0.6/index', function(frontendJsAlertSupportWeb106Index) {
+try {
+(function() {
+var AlertProvider = frontendJsAlertSupportWeb106Index;
+AlertProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-tooltip-support-web@1.0.17/index', function(frontendJsTooltipSupportWeb1017Index) {
+try {
+(function() {
+var TooltipSupport = frontendJsTooltipSupportWeb1017Index;
+TooltipSupport.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-tabs-support-web@1.0.7/index', function(frontendJsTabsSupportWeb107Index) {
+try {
+(function() {
+var TabsProvider = frontendJsTabsSupportWeb107Index;
+TabsProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-dropdown-support-web@1.0.7/index', function(frontendJsDropdownSupportWeb107Index) {
+try {
+(function() {
+var DropdownProvider = frontendJsDropdownSupportWeb107Index;
+DropdownProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-collapse-support-web@1.0.9/index', function(frontendJsCollapseSupportWeb109Index) {
+try {
+(function() {
+var CollapseProvider = frontendJsCollapseSupportWeb109Index;
+CollapseProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script>
+<script src="./Веб-программирование - Программная инженерия - Кафедра ВТ_files/jquery-3.5.1.min.js"></script>
+
+
+
+
+
+<div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><div id="tooltipContainer"></div></body></html>

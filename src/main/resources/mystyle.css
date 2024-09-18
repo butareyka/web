@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    color: #FFFFFF;
+    text-align: left;
+    position: static;
+    font-size: 80%;
+    background: linear-gradient(60deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1));
+    padding: 2%;
+}
+
+#header h1 {
+    font-family: cursive;
+}
+
+#coordinatePlane {
+    transform: translate(5%, 13%);
+}
+
+#buttons-container {
+    width: 320px;
+    height: 300px;
+    transform: translate(180%, -30%);
+    position: static;
+}
+
+.x-buttons-container {
+    width: 50%;
+    height: 20%;
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -400%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.x-label {
+    width: 100%;
+    text-align: center;
+}
+
+.x-button {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 1.3em;
+    font-size: 1em;
+}
+
+.x-button.active {
+    background: linear-gradient(43.1418281828deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1));
+    color: #FFFFFF;
+}
+
+.y-label {
+    width: 100%;
+    text-align: center;
+}
+.y-input-container {
+    width: 60%;
+    height: 7%;
+    position: static;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -550%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.y-input-container input[type="text"] {
+    width: 110%;
+    font-size: 1em;
+}
+
+.radius-label {
+    width: 100%;
+    text-align: center;
+}
+
+.radius-radio-container  {
+    width: 36%;
+    height: 7%;
+    position: static;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radius-radio input[type="radio"] {
+    width: 15.5%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 1.3em;
+    font-size: 1em;
+}
+
+#submit-button {
+    width: 25%;
+    height: 13%;
+    display: flex; /* Добавлено для использования justify-content и align-items */
+    justify-content: center;
+    align-items: center;
+    position: static;
+    top: 74.5%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    font-size: 1em;
+    background: #ccc; /* Добавлен серый фон по умолчанию */
+    color: #000; /* Добавлен черный цвет текста по умолчанию */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Добавлен переход для плавного изменения фона и тени */
+}
+
+#submit-button:hover {
+    background: linear-gradient(60deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1));
+    color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Добавлена тень с полупрозрачным черным цветом */
+}
+
+.outputContainer {
+    width: 100%;
+    padding: 10px;
+    transform: translate(60%, -85%);
+    background-color: #f8f8f8;
+}
+
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.history-item {
+    flex: 1 1 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+/* Container for the output */
+.outputContainer {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Styling for the notification */
+.notification {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.outputStub {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+.errorStub {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Styling for the history section */
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.value {
+    font-weight: normal;
+    color: #666;
+}
+
+/* Pointer in the SVG */
+svg {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#pointer {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    visibility: hidden;
+}
+
+/* Pointer colors for hit or miss */
+#pointer[fill="green"] {
+    fill: green;
+}
+
+#pointer[fill="red"] {
+    fill: red;
+}
+
+@media screen and (max-width: 1130px){
+    #buttons-container{
+        width: 320px;
+        height: 300px;
+        transform: translate(70%, 120%);
+        position: static;
+    }
+    .output-container{
+        width: 100%;
+        padding: 10px;
+        transform: translate(-50%, 0%);
+        background-color: #f8f8f8;
+    }
+}
