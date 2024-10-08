@@ -3,7 +3,6 @@ plugins {
 }
 
 group = 'org.example'
-version = '1'
 
 repositories {
     mavenCentral()
@@ -31,7 +30,6 @@ jar {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
     from {
-        // Include the FastCGI.jar from the lib directory
         zipTree(file('/Users/macbook/WEB/WebLab1/lib/FastCGI.jar'))
     }
 }

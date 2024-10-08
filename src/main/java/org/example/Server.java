@@ -7,15 +7,14 @@ import java.nio.charset.StandardCharsets;
 
 public class Server {
     public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
+        System.out.println("привет, я запустился!");
         FCGIInterface fcgiInterface = new FCGIInterface();
-
+        System.out.println(fcgiInterface.FCGIaccept());
         while(fcgiInterface.FCGIaccept() >= 0) {
             try {
                 String requestBody = readRequestBody();
                 String content = makeAnswer(requestBody);
-                long endTime = System.currentTimeMillis();
-                content = content + "," + (endTime - startTime);
+                System.out.print(content);
                 String httpResponse = "HTTP/1.1 200 OK\nContent-Type: text/html\nContent-Length: %d\n\n%s\n".formatted(content.getBytes(StandardCharsets.UTF_8).length, content);
                 FCGIInterface.request.outStream.write(httpResponse.getBytes(StandardCharsets.UTF_8));
             } catch (IOException var9) {
@@ -33,12 +32,12 @@ public class Server {
     }
 
     private static boolean checkPoint(double x, double y, double r) {
-        if (x <= 0 && y <= 0 && x * x + y * y <= r * r) {
+        if (x <= 0 && y <= 0 && x * x + y * y <= 1) {
             return true;
-        } else if (x <= 0 && y >= 0 && y >= -x + r) {
+        } else if (x <= 0 && y >= 0 && y <= 2 * x + 2) {
             return true;
         } else {
-            return x >= 0 && y <= 0 && x <= r / 2 && y >= -r;
+            return x >= 0 && y <= 0 && x <= 1 && y >= -2;
         }
     }
 

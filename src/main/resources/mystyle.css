@@ -22,11 +22,11 @@ body {
 }
 
 #coordinatePlane {
-    transform: translate(5%, 13%);
+    transform: translate(13%, 13%);
 }
 
 #buttons-container {
-    width: 320px;
+    width: 340px;
     height: 300px;
     transform: translate(180%, -30%);
     position: static;
@@ -47,6 +47,7 @@ body {
 .x-label {
     width: 100%;
     text-align: center;
+    /*color: black;*/
 }
 
 .x-button {
@@ -68,10 +69,12 @@ body {
 .y-label {
     width: 100%;
     text-align: center;
+    /*color: black;*/
 }
+
 .y-input-container {
     width: 60%;
-    height: 7%;
+    height: 7.5%;
     position: static;
     top: 60%;
     left: 50%;
@@ -89,6 +92,7 @@ body {
 .radius-label {
     width: 100%;
     text-align: center;
+    /*color: black;*/
 }
 
 .radius-radio-container  {
@@ -118,7 +122,7 @@ body {
 #submit-button {
     width: 25%;
     height: 13%;
-    display: flex; /* Добавлено для использования justify-content и align-items */
+    display: flex;
     justify-content: center;
     align-items: center;
     position: static;
@@ -126,131 +130,38 @@ body {
     left: 50%;
     transform: translate(-50%, -120%);
     font-size: 1em;
-    background: #ccc; /* Добавлен серый фон по умолчанию */
-    color: #000; /* Добавлен черный цвет текста по умолчанию */
-    transition: background 0.3s ease, box-shadow 0.3s ease; /* Добавлен переход для плавного изменения фона и тени */
+    background: #efefef;
+    color: #000000;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 #submit-button:hover {
     background: linear-gradient(60deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1));
-    color: #FFFFFF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Добавлена тень с полупрозрачным черным цветом */
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.outputContainer {
-    width: 100%;
-    padding: 10px;
-    transform: translate(60%, -85%);
-    background-color: #f8f8f8;
+#output-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%; /* Задаем ширину в процентах для адаптивности */
+    margin: 20px 0; /* Добавляем отступы сверху и снизу */
+    position: relative; /* Отказ от использования transform */
 }
 
-.history {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.history-item {
-    flex: 1 1 150px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-.label {
-    font-weight: bold;
-}
-
-.value {
-    margin-top: 5px;
-    font-size: 1.1em;
-}
-
-/* Container for the output */
-.outputContainer {
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    margin: 20px 0;
-    border: 1px solid #ddd;
-}
-
-/* Styling for the notification */
-.notification {
-    font-size: 14px;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-.outputStub {
-    background-color: #f0f0f0;
-    color: #555;
-    border: 1px solid #ccc;
-}
-
-.errorStub {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-}
-
-/* Styling for the history section */
-.history {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 16px;
-}
-
-.history-item {
-    display: flex;
-    justify-content: space-between;
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
     padding: 8px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    border-radius: 5px;
 }
 
-.label {
-    font-weight: bold;
-    color: #333;
-}
-
-.value {
-    font-weight: normal;
-    color: #666;
-}
-
-/* Pointer in the SVG */
-svg {
-    border: 1px solid #ddd;
-    margin-top: 20px;
-}
-
-#pointer {
-    fill: none;
-    stroke: black;
-    stroke-width: 1px;
-    visibility: hidden;
-}
-
-/* Pointer colors for hit or miss */
-#pointer[fill="green"] {
-    fill: green;
-}
-
-#pointer[fill="red"] {
-    fill: red;
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 @media screen and (max-width: 1130px){
     #buttons-container{
-        width: 320px;
+        width: 360px;
         height: 300px;
         transform: translate(70%, 120%);
         position: static;
@@ -260,5 +171,12 @@ svg {
         padding: 10px;
         transform: translate(-50%, 0%);
         background-color: #f8f8f8;
+    }
+    #output-table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%; /* Задаем ширину в процентах для адаптивности */
+        margin: 200px 0; /* Добавляем отступы сверху и снизу */
+        position: relative; /* Отказ от использования transform */
     }
 }
