@@ -45,7 +45,7 @@ document.getElementById('submit-button').onclick = function (){
 
         if (isNaN(x)){
             document.querySelector(".x-label").style.color = "red";
-        } else if (isNaN(Number(y.value)) || Number(y.value) < -5 || String(y.value).match("-5\.0*[1-9]*") || Number(y.value) > 3 || String(y.value).match("3\.0*[1-9]*")) {
+        } else if (isNaN(Number(y.value)) || Number(y.value) < -5 || String(y.value).match("-5\.0*\[1-9\]+") || Number(y.value) > 3 || String(y.value).match("3\.0*\[1-9\]+")) {
             document.querySelector(".y-label").style.color = "red";
         } else {
             document.querySelector(".x-label").style.color = "black";
